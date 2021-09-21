@@ -1,0 +1,27 @@
+72190361_MeidiantiAyuP_ProgMobKotlin2021
+
+LISTVIEW
+1. Berapa jumlah baris pada list?
+disesuaikan dengan isi array darlam var items berdasarkan i yang ditampilkan dalam listview.
+2. Jelaskan persamaan antara list dan card
+Sama-sama menampilkan objek secara vertikal,
+Melakukan import & adanya adapter.
+Menggisikan arraylist berdasarkan items.
+
+RECYCLER VIEW
+1. Sebutkan komponen utama yang harus ada saat menggunakan RecyclerView!
+Adapter & ViewHolder (PetaniAdapter)
+&
+Layout (activity_sample_recycler_view.xml).
+2. Apakah RecyclerView bisa menggunakan linear layout?
+Bisa nantinya akan tampil secara vertikal seperti pada rv_item_dutatani pada objek yang dibuat.
+
+CARD VIEW
+1. Sebutkan komponen utama saat menggunakan cardview!
+Adapter, Layout, ViewHolder.
+2. Sebutkan perbedaan ketika menggunakan cardview dibanding dengan recycler view!
+Terlihat adanya/tidak pembatas setiap items baru pada tampilannya.
+penggunaan view & adapter berbeda
+3. Apa atribut yang digunakan untuk mengatur sudut cardview?
+constarints (atas-bawah-kanan-kiri) & atribut match/wrap.
+
