@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.progmob2021">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProgMob2021">
+        <activity
+            android:name=".SampleCardView"
+            android:exported="true" />
+        <activity
+            android:name=".SampleRecyclerView"
+            android:exported="true"></activity>
+        <activity
+            android:name=".SampleListView"
+            android:exported="true"></activity>
+        <activity
+            android:name=".SampleList"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DUTATANI"
+            android:exported="true"
+            android:gravity="center" />
+        <activity
+            android:name=".ProteinTrackerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TableActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ConstraintActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LinearActivity"
+            android:exported="true"
+            android:label="ProgmobKotlin2021" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
